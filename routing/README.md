@@ -104,3 +104,28 @@ export default function Blog() {
 #### Dengan menggunakan konsep Nested Routes dan Dynamic Routes, buatlah halaman dengan routing /products/[productId]/reviews/[reviewId] 
 
 ![Screenshot P3](assets-report/praktikum3c.jpg)
+
+---
+
+# Praktikum 4: Navigasi dengan Link Component
+
+Pada Praktikum sebelumnya Anda telah berhasil membuat routing, tetapi belum dapat menampilkan link navigasi di dalam Project. Untuk melakukan navigasi, anda dapat menggunakan Link komponen yang disediakan oleh library NextJs.
+
+## To-do
+#### Tambahkan link yang sebelumnya anda telah kerjakan!
+
+```tsx
+export default function Home() {
+    return (
+        <div>
+            <h1>Welcome to Home Brian</h1> 
+            <Link href='/profile'>Profile</Link> <br/>
+            <Link href='/about'>About</Link> <br/>
+            <Link href='/blogs'>Blogs</Link> <br/>
+            <Link href='/products'>Products</Link> <br/>
+        </div>
+    );
+  }
+```
+
+![Screenshot P4](assets-report/praktikum4.jpg)
