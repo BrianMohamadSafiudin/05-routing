@@ -52,7 +52,7 @@ export default function Profile() {
 
 #### Dengan menggunakan konsep yang sama pada Praktikum 1, silahkan tambahkan susunan folder /blogs/first dan /blogs/second. Kemudian tambahkan masing-masing untuk setiap folder dengan file page.tsx.
 
-![Screenshot P1](assets-report/praktikum2a.jpg)
+![Screenshot P2](assets-report/praktikum2a.jpg)
 
 ## To-do
 #### Lengkapi function component pada /blogs/second/page.tsx
@@ -65,4 +65,42 @@ export default function SecondBlog() {
   }
   ```
 
-![Screenshot P1](assets-report/praktikum2b.jpg)
+![Screenshot P2](assets-report/praktikum2b.jpg)
+
+---
+
+# Praktikum 3: Membuat routing dinamis (Dynamic Routing)
+
+#### Anda dapat membuat routing secara dinamis, maksudnya ketika suatu link diakses akan ditambahkan dengan suatu url path yang nilainya dapat berubah secara dinamis. Jadi, dalam praktikum ini akan dibuat susunan URL atau link seperti berikut:
+
+## Link Uutama -> Link dinamis
+- /products -> /products/1
+- /products -> /products/2
+- /products -> /products/3
+
+#### Cobalah akses halaman /products dan /products/1 pada browser anda. Ubah nilai productId dengan nilai lainnya.
+
+![Screenshot P3](assets-report/praktikum3a.jpg)
+
+## To-do 1
+#### Perbaiki implementasi Praktikum 2 menggunakan Dynamic Routes
+
+```tsx
+export default function Blog() {
+    return (
+        <div>
+            <h1>Blog Brian</h1>
+            <h2>/first</h2>
+            <h2>/second</h2>
+            <h3>/any (dynamic)</h3>
+        </div>
+    );
+  }
+```
+
+![Screenshot P3](assets-report/praktikum3b.jpg)
+
+## To-do 2
+#### Dengan menggunakan konsep Nested Routes dan Dynamic Routes, buatlah halaman dengan routing /products/[productId]/reviews/[reviewId] 
+
+![Screenshot P3](assets-report/praktikum3c.jpg)
