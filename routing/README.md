@@ -3,7 +3,7 @@
 ### Kelas : TI-3A
 ---
 
-# Praktikum 1: Membuat routing sederhana
+# Praktikum 1: Membuat routing bersarang (Nested Routing)
 
 #### Routing di ReactJS dengan NextJS memanfaatkan organisasi penamaan folder dan file pada folder app. Silahkan tambahkan file page.tsx di dalam folder app, dan buatlah komponen dengan kode berikut.
 
@@ -45,3 +45,24 @@ export default function Profile() {
 ```
 
 ![Screenshot P1](assets-report/praktikum1c.jpg)
+
+---
+
+# Praktikum 2: Membuat routing sederhana
+
+#### Dengan menggunakan konsep yang sama pada Praktikum 1, silahkan tambahkan susunan folder /blogs/first dan /blogs/second. Kemudian tambahkan masing-masing untuk setiap folder dengan file page.tsx.
+
+![Screenshot P1](assets-report/praktikum2a.jpg)
+
+## To-do
+#### Lengkapi function component pada /blogs/second/page.tsx
+
+```tsx
+export default function SecondBlog() {
+    return (
+          <h1>Second Blog Brian</h1>
+    );
+  }
+  ```
+
+![Screenshot P1](assets-report/praktikum2b.jpg)
